@@ -1,6 +1,6 @@
 #  Superstore Sales Analysis
 
-Analisis data penjualan Superstore (2015–2018) menggunakan Excel — mulai dari data cleaning, pivot summary, visualisasi, hingga dashboard interaktif dan rekomendasi bisnis.
+Analisis data penjualan Superstore (2015-2018) menggunakan Excel - mulai dari data cleaning, pivot summary, visualisasi, hingga dashboard interaktif dan rekomendasi bisnis.
 
 ##  Dataset
 
@@ -16,13 +16,13 @@ Dataset berisi **9.800 baris transaksi** dengan informasi order, pelanggan, prod
 
 ##  Proses Analisis
 
-1. **Data Cleaning & Preparation** — pengecekan duplikat & missing value, konversi format tanggal, penambahan kolom turunan (Order Year, Month, YearMonth, Ship Duration).
-2. **Pivot Table Analysis** — ringkasan penjualan per Category, Region, Segment, Ship Mode, dan Sub-Category menggunakan formula dinamis (SUMIF, COUNTIF, AVERAGEIF).
-3. **Visualization** — bar chart, line chart, dan pie chart untuk melihat tren dan komposisi penjualan.
-4. **Dashboard** — ringkasan interaktif dengan KPI cards dan kumpulan chart dalam satu tampilan.
-5. **Insights & Recommendations** — temuan bisnis dan rekomendasi strategis berdasarkan hasil analisis.
+1. **Data Cleaning & Preparation** - pengecekan duplikat & missing value, konversi format tanggal, penambahan kolom turunan (Order Year, Month, YearMonth, Ship Duration).
+2. **Pivot Table Analysis** - ringkasan penjualan per Category, Region, Segment, Ship Mode, dan Sub-Category menggunakan formula dinamis (SUMIF, COUNTIF, AVERAGEIF).
+3. **Visualization** - bar chart, line chart, dan pie chart untuk melihat tren dan komposisi penjualan.
+4. **Dashboard** - ringkasan interaktif dengan KPI cards dan kumpulan chart dalam satu tampilan.
+5. **Insights & Recommendations** - temuan bisnis dan rekomendasi strategis berdasarkan hasil analisis.
 
-##  Isi Workbook (`Superstore_Sales_Analysis.xlsx`)
+##  Isi Workbook (`superstore_sales_analysis.xlsx`)
 
 | Sheet | Isi |
 |---|---|
@@ -40,7 +40,7 @@ Dataset berisi **9.800 baris transaksi** dengan informasi order, pelanggan, prod
 | `Top10_State` | 10 state dengan penjualan tertinggi |
 
 ##  Temuan Utama
-![dashboard](dashboard.png)
+![dashboard](img/dashboard.png)
 - **Technology** adalah kategori dengan penjualan tertinggi meskipun jumlah transaksinya paling sedikit — menandakan nilai per transaksi yang besar.
 - **Region West** memimpin penjualan, sementara **Region South** paling rendah dan berpotensi jadi target ekspansi.
 - Penjualan menunjukkan **pola musiman yang konsisten**, dengan puncak setiap tahun terjadi di bulan **November–Desember**.
@@ -54,9 +54,11 @@ Dataset berisi **9.800 baris transaksi** dengan informasi order, pelanggan, prod
 ##  Struktur Repository
 
 ```
-├── Superstore_Sales_Analysis.xlsx   # Workbook lengkap (Data, Summary, Dashboard, Insights)
-├── superstore_sales.csv                        # Dataset mentah
+├──img
+    ├── dashboard.png
 └── README.md
+├── superstore_sales_analysis.xlsx   # Workbook lengkap (Data, Summary, Dashboard, Insights)
+├── superstore_sales.csv                # Dataset mentah
 ```
 
 ##  Cara Menggunakan
