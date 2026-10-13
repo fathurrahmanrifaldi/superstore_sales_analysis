@@ -41,9 +41,9 @@ Dataset berisi **9.800 baris transaksi** dengan informasi order, pelanggan, prod
 
 ##  Temuan Utama
 ![dashboard](img/dashboard.png)
-- **Technology** adalah kategori dengan penjualan tertinggi meskipun jumlah transaksinya paling sedikit — menandakan nilai per transaksi yang besar.
+- **Technology** adalah kategori dengan penjualan tertinggi meskipun jumlah transaksinya paling sedikit - menandakan nilai per transaksi yang besar.
 - **Region West** memimpin penjualan, sementara **Region South** paling rendah dan berpotensi jadi target ekspansi.
-- Penjualan menunjukkan **pola musiman yang konsisten**, dengan puncak setiap tahun terjadi di bulan **November–Desember**.
+- Penjualan menunjukkan **pola musiman yang konsisten**, dengan puncak setiap tahun terjadi di bulan **November-Desember**.
 - **Standard Class** adalah moda pengiriman paling banyak digunakan namun paling lambat, membuka peluang untuk mendorong pelanggan ke opsi pengiriman yang lebih cepat.
 - Segmen **Consumer** mendominasi kontribusi penjualan dibanding Corporate dan Home Office.
 
@@ -55,10 +55,10 @@ Dataset berisi **9.800 baris transaksi** dengan informasi order, pelanggan, prod
 
 ```
 ├──img
-    ├── dashboard.png
+    └── dashboard.png
 └── README.md
 ├── superstore_sales_analysis.xlsx   # Workbook lengkap (Data, Summary, Dashboard, Insights)
-├── superstore_sales.csv                # Dataset mentah
+├── superstore_sales.csv             # Dataset mentah
 ```
 
 ##  Cara Menggunakan
@@ -66,4 +66,4 @@ Dataset berisi **9.800 baris transaksi** dengan informasi order, pelanggan, prod
 1. Unduh dan buka `Superstore_Sales_Analysis.xlsx` di Microsoft Excel.
 2. Mulai dari sheet `Dashboard` untuk melihat ringkasan visual.
 3. Lihat sheet `Insights_Recommendations` untuk insight & rekomendasi bisnis.
-4. Data mentah dan hasil cleaning tersedia di sheet `Data`, dalam format Excel Table — semua summary akan otomatis ter-update jika data berubah.
+4. Data mentah dan hasil cleaning tersedia di sheet `Data`, dalam format Excel Table - semua summary akan otomatis ter-update jika data berubah.
